@@ -2,6 +2,15 @@
 <html lang="pt-br">
 <title>Perca de peso</title>
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KQY9BX1PYW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KQY9BX1PYW');
+</script>    
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +37,7 @@
       align-items: center;
       width: 100vw;
       height: 100vh;
-      background: url("fundo.png");
+      background: url("arte.png");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -75,6 +84,25 @@
       display: none;
     }
   </style>
+    
+    <!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3135593316679519');
+  fbq('track', 'AddToCart');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=5142592929126479&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    
 </head>
 <body>
 
@@ -83,7 +111,7 @@
 <div id="primeira">
 <div class="question">
 <h1>Pergunta 1</h1>
-<p>Você realmente quer descobrir esse segredo?</p>
+<p>Você já tentou outros métodos para emagrecer?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="segunda()">SIM</button>
@@ -93,7 +121,7 @@
 <div id="segunda" class="hide">
 <div class="question">
 <h1>Pergunta 2</h1>
-<p>Você promete não revelar para ninguém?</p>
+<p>Você deseja descobrir alguns ingredientes simples para secar?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="terceira()">SIM</button>
@@ -103,7 +131,7 @@
 <div id="terceira" class="hide">
 <div class="question">
 <h1>Pergunta 3</h1>
-<p>O vídeo a seguir tem um limite para pouquíssimas pessoas verem ao mesmo tempo... Você pretende ver até o fim?</p>
+<p>O vídeo a seguir tem um limite para pouquíssimas mulheres verem ao mesmo tempo... Você pretende ver até o final?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="redirect()">SIM</button>
@@ -123,7 +151,7 @@
       document.getElementById("terceira").classList.remove("hide")
     }
     function redirect() {
-      location.href = "COLOQUE SEU LINK AQUI"
+      location.href = "https://zerogordurinha.fun/pv/"
     }
   </script>
 </body>
